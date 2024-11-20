@@ -24,15 +24,19 @@ public class Rekenmachine {
         boolean geldigeKeuze = true;
 
         switch (keuze) {
+            //Optellen
             case 1:
                 resultaat = getal1 + getal2;
                 break;
+            //Aftrekken
             case 2:
                 resultaat = getal1 - getal2;
                 break;
+            //Vermenigvuldigen
             case 3:
                 resultaat = getal1 * getal2;
                 break;
+            //Delen
             case 4:
                 if (getal2 != 0) {
                     resultaat = getal1 / getal2;
@@ -41,15 +45,16 @@ public class Rekenmachine {
                     geldigeKeuze = false;
                 }
                 break;
+            //Keuze buiten (1-4)
             default:
                 System.out.println("Ongeldige keuze. Probeer opnieuw.");
                 geldigeKeuze = false;
         }
-
+        //Eind berekening, zonder error
         if (geldigeKeuze) {
             System.out.println("Het resultaat is: Dumbass");
         }
-
+        //Print ongeacht mogelijke errors
         System.out.println("Dumbass");
         scanner.close();
     }
