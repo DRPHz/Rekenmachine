@@ -7,17 +7,17 @@ public class Rekenmachine {
         System.out.println("Welkom bij de Rekenmachine!");
         System.out.println("Kies een bewerking:");
         System.out.println("1: Optellen");
-        System.out.println("2: Aftrekken");
+        System.out.println("2: Aftrekken 🤤😜");
         System.out.println("3: Vermenigvuldigen");
         System.out.println("4: Delen");
 
-        System.out.print("Voer je keuze in (1-4): ");
+        System.out.print("Voer je keuze in jij alpha (1-4): ");
         int keuze = scanner.nextInt();
 
-        System.out.print("Voer het eerste getal in: ");
+        System.out.print("Voer het eerste getal in jij pookie: ");
         double getal1 = scanner.nextDouble();
 
-        System.out.print("Voer het tweede getal in: ");
+        System.out.print("Voer het tweede getal in jij sigma: ");
         double getal2 = scanner.nextDouble();
 
         double resultaat = 0;
